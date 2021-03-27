@@ -11,7 +11,7 @@ const auto n_bits = 8192;
 ```
 
 ```shell
-gcc main.cpp -o randomprime -O2 -Wall -std=c++14 -lstdc++ -lgmp -lgmpxx
+gcc main.cpp -O2 -Wall -std=c++14 -lstdc++ -lgmp -lgmpxx
 ```
 
 Relies on `/dev/urandom` to get a random seed of size `unsigned long int`.
